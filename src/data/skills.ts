@@ -1,0 +1,87 @@
+import type { SkillGroup } from '../types';
+
+export const skillGroups: SkillGroup[] = [
+  {
+    category: 'Languages',
+    skills: ['Java', 'TypeScript', 'JavaScript', 'C#', 'Python', 'SQL', 'HTML5', 'CSS3'],
+  },
+  {
+    category: 'Frontend',
+    skills: [
+      'React',
+      'Angular',
+      'Vite',
+      'HTML5',
+      'CSS3',
+      'Responsive Design',
+      'TypeScript',
+      'JavaScript',
+      'DOM Manipulation',
+      'REST API Integration',
+    ],
+  },
+  {
+    category: 'Backend',
+    skills: [
+      'Node.js',
+      'Express.js',
+      'Spring Boot',
+      'Spring Cloud',
+      '.NET Core',
+      'REST APIs',
+      'Microservices',
+      'Server-Side TypeScript',
+      'Netlify Functions',
+      'Apache Kafka',
+    ],
+  },
+  {
+    category: 'AI & ML',
+    skills: [
+      'LLM Integration',
+      'Prompt Engineering',
+      'AI Automation',
+      'Serverless AI',
+      'Firebase AI',
+      'Machine Learning',
+      'Data Science',
+      'Kaggle',
+      'AI Testing',
+    ],
+  },
+  {
+    category: 'Databases',
+    skills: ['MongoDB', 'PostgreSQL', 'Firestore', 'SQL Server', 'Oracle DB', 'MySQL', 'Firebase', 'RDBMS'],
+  },
+  {
+    category: 'Cloud & DevOps',
+    skills: [
+      'AWS',
+      'Azure',
+      'Kubernetes',
+      'Docker',
+      'Jenkins',
+      'GitHub Actions',
+      'Netlify',
+      'CI/CD',
+      'NPM',
+      'Git',
+      'Firebase Hosting',
+    ],
+  },
+  {
+    category: 'Testing & QA',
+    skills: [
+      'Selenium WebDriver',
+      'TestNG',
+      'Cucumber BDD',
+      'REST Assured',
+      'Postman',
+      'Jest',
+      'JUnit',
+      'Manual Testing',
+      'Regression Testing',
+      'API Testing',
+    ],
+  },
+];
